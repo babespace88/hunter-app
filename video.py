@@ -8,10 +8,6 @@ from telegram.ext import ApplicationBuilder, MessageHandler, filters, ContextTyp
 TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN")
 FAL_KEY = os.environ.get("FAL_KEY")
 
-os.environ["FAL_KEY"] = "#"
-
-TELEGRAM_TOKEN = "#"
-
 user_usage = {}
 VIDEO_LIMIT = 200
 
