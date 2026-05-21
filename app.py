@@ -9,7 +9,7 @@ TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN")
 FAL_KEY = os.environ.get("FAL_KEY")
 
 user_usage = {}
-VIDEO_LIMIT = 200
+VIDEO_LIMIT = 50
 
 def get_usage(user_id):
     if user_id not in user_usage:
